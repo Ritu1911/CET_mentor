@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/spinner"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- <Spinner
+         android:background="?attr/spinner"
+         android:id="@+id/youtube_playlist_spinner2"
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         android:backgroundTint="#000000"
+         android:popupBackground="?attr/spinner"
+         android:layout_centerHorizontal="true"/>-->
+    <Spinner
+        android:backgroundTint="?attr/spinnerarrow"
+        android:popupBackground="?attr/spinner"
+        android:id="@+id/youtube_playlist_spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:layout_centerHorizontal="true"/>
+
+    <android.support.v7.widget.RecyclerView
+        app:reverseLayout="true"
+        android:stackFromBottom="true"
+        android:id="@+id/youtube_recycler_view2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_below="@id/youtube_playlist_spinner2"/>
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:id="@+id/progressBar2" />
+
+</RelativeLayout>

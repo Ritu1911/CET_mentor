@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.3"
+    defaultConfig {
+        applicationId "com.cet.alokrabi.allgovtjobs_ssc_rrb_mentor_tutor"
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 13
+        versionName "1.9.5"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        debug {
+            debuggable false
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    configurations.all {
+        resolutionStrategy.force 'com.google.code.findbugs:jsr305:3.0.1'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support.constraint:constraint-layout:1.1.3'
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    // compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    //compile 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2'
+    //compile group: 'cz.msebera.android', name:'httpclient', version:'4.4.1.1'
+    //compile 'com.google.android.gms:play-services-appindexing:8.4.0'
+    //compile 'org.apache.httpcomponents:httpclient:4.5'
+    //compile 'com.squareup.picasso.picasso:2.3.2'
+    //compile 'com.google.code.gson:gson:2.8.0'
+    compile files('libs/YouTubeAndroidPlayerApi.jar')
+    //compile 'com.appbrain:appbrain-sdk:+@aar'
+
+
+    compile 'com.android.support:appcompat-v7:26.0.0-alpha1'
+    compile 'com.android.support:design:26.0.0-alpha1'
+    compile 'com.android.support:support-v4:26.0.0-alpha1'
+    compile 'de.hdodenhof:circleimageview:1.2.1'
+    compile 'com.google.firebase:firebase-ads:11.0.4'
+    compile 'com.google.android.gms:play-services-ads:11.0.4'
+    compile 'com.android.support:cardview-v7:26.0.0-alpha1'
+    compile 'com.google.firebase:firebase-core:11.0.4'
+    compile 'com.google.firebase:firebase-database:11.0.4'
+    compile 'com.google.firebase:firebase-messaging:11.0.4'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.google.apis:google-api-services-youtube:v3-rev182-1.20.0'
+    compile 'com.google.http-client:google-http-client-android:1.20.0'
+    compile 'com.google.api-client:google-api-client-android:1.20.0'
+    compile 'com.google.api-client:google-api-client-gson:1.20.0'
+    compile 'com.android.support:multidex:1.0.1'
+    testCompile 'junit:junit:4.12'
+}
+apply plugin: 'com.google.gms.google-services'

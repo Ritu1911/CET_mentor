@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splashscreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/bg"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.cet.alokrabi.allgovtjobs_ssc_rrb_mentor_tutor.Splashscreen">
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="150dp"
+android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_launcherlogo" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgLogo"
+        android:text="Be prepared for \nCommon Eligibility Test"
+        android:gravity="center"
+        android:textColor="#cdf4ff"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold|italic"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:weightSum="8"
+        android:layout_marginTop="550dp"
+        android:layout_height="20dp">
+        <TextView
+            android:layout_weight="3.2"
+            android:gravity="right|center"
+            android:textColor="?attr/textcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Powered by AloKrabi"
+
+            android:id="@+id/textView3" />
+
+        <ImageView
+            android:layout_weight="1.19"
+            android:layout_gravity="start"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/alokrabi"/>
+    </LinearLayout>
+
+</RelativeLayout>

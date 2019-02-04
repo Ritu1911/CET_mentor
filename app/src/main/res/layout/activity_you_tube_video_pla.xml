@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_you_tube_video_pla"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="com.cet.alokrabi.allgovtjobs_ssc_rrb_mentor_tutor.YouTubeVideoPla">
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:id="@+id/youtube_player_view"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+    </com.google.android.youtube.player.YouTubePlayerView>
+
+</RelativeLayout>

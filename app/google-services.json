@@ -1,0 +1,219 @@
+{
+  "project_info": {
+    "project_number": "581659145662",
+    "firebase_url": "https://my-projects-1617c.firebaseio.com",
+    "project_id": "my-projects-1617c",
+    "storage_bucket": "my-projects-1617c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581659145662:android:84f8d45f7700d916",
+        "android_client_info": {
+          "package_name": "com.androhub.alokrabi.flutterfirstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581659145662-epfl3qieokng4616kne877o50b3vf751.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.androhub.alokrabi.flutterfirstapp",
+            "certificate_hash": "3261ed3540a1efd10cab5c8deaef6ac73760b1c8"
+          }
+        },
+        {
+          "client_id": "581659145662-as6eh22r6gq632271jio96ej2iq14itm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHAC-fmsF1QcsaOvnRSLg1bVPuUhwqbeY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581659145662-as6eh22r6gq632271jio96ej2iq14itm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581659145662:android:56c03203e0a931c4",
+        "android_client_info": {
+          "package_name": "com.androhub.alokrabi.teamspirit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581659145662-no5a1f5erqh4mebdufah25v339sgk35r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.androhub.alokrabi.teamspirit",
+            "certificate_hash": "3261ed3540a1efd10cab5c8deaef6ac73760b1c8"
+          }
+        },
+        {
+          "client_id": "581659145662-as6eh22r6gq632271jio96ej2iq14itm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHAC-fmsF1QcsaOvnRSLg1bVPuUhwqbeY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581659145662-as6eh22r6gq632271jio96ej2iq14itm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581659145662:android:4ec4b572ee607d76",
+        "android_client_info": {
+          "package_name": "com.cet.alokrabi.allgovtjobs_ssc_rrb_mentor_tutor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581659145662-bbbjadadafjs8gn9v7kqs50npgef7ho9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cet.alokrabi.allgovtjobs_ssc_rrb_mentor_tutor",
+            "certificate_hash": "3261ed3540a1efd10cab5c8deaef6ac73760b1c8"
+          }
+        },
+        {
+          "client_id": "581659145662-as6eh22r6gq632271jio96ej2iq14itm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHAC-fmsF1QcsaOvnRSLg1bVPuUhwqbeY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581659145662-as6eh22r6gq632271jio96ej2iq14itm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581659145662:android:fc1c99c7a5c00bf1",
+        "android_client_info": {
+          "package_name": "com.cet.alokrabi.cet_ssc_rrb_mentor_tutor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581659145662-jc6tf7rqnroljp6to5oa8krfv4kco7si.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cet.alokrabi.cet_ssc_rrb_mentor_tutor",
+            "certificate_hash": "3261ed3540a1efd10cab5c8deaef6ac73760b1c8"
+          }
+        },
+        {
+          "client_id": "581659145662-as6eh22r6gq632271jio96ej2iq14itm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHAC-fmsF1QcsaOvnRSLg1bVPuUhwqbeY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581659145662-as6eh22r6gq632271jio96ej2iq14itm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-4724351043619149~6720300723"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581659145662:android:e99e89d5de2de7d9",
+        "android_client_info": {
+          "package_name": "com.example.massageapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581659145662-as6eh22r6gq632271jio96ej2iq14itm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHAC-fmsF1QcsaOvnRSLg1bVPuUhwqbeY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
